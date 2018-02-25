@@ -1,0 +1,146 @@
+body {
+  color:#000000; 
+  background: #6f9f6f;
+  background: #C6E2EE url(https://s3.amazonaws.com/twitter_production/a/1290033469/images/themes/theme2/bg.gif) no-repeat fixed;
+  
+  margin: 0em 0em 1em 0em;
+  padding:0px;
+  font: normal 13px arial,'Bitstream Vera Sans',helvetica,sans-serif;
+  text-align:center;
+  }
+
+a:link          { text-decoration: none; color: blue ;}
+a:visited       { text-decoration: none; color: blue ;}
+a:hover         { 
+    text-decoration: underline; 
+    background: #ddd;
+}
+
+h1, h2, h3 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+h1 { 
+  /*font-family: palatino, palatino linotype, georgia, times, serif;
+  font-style: italic;*/
+  color: #999999;
+  border-bottom: dotted thin #dddddd;
+  letter-spacing: -2px;
+  font-size: xx-large;
+}
+
+img { border: none; }
+
+/* <sidebar> */
+div.sidebar { 
+  width: 220px;
+  float: right;
+  padding:40px 40px 0px 40px;
+  margin-top: 40px;
+}
+
+.sidebaritem { 
+  padding: 7px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.sidebaritem h2 { 
+  margin-top: 0px;
+  padding: 1px;
+  background: #eeeeee;
+  font-size: medium;
+}
+.sidebaritem ul { 
+  list-style: none;
+  padding-left: 0px;
+}
+
+#photo img {
+    width: 200px;
+    border: solid thin #ddd;
+}
+#photo {
+    text-align: center;
+    font-size: x-small;
+}
+
+
+div#main {
+  color:#000000; background: #FFFFFF;
+  width:90%;
+  max-width: 70em;
+  margin: 1.5em auto 1.0em auto;
+  padding: .5em 1.25em 2em 1.25em;
+  border: 1px solid #000;
+  font-size: 100%;
+  line-height:1.65;
+  text-align: left;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+ul {
+  margin-botton: 50px;
+}
+
+.thesis {
+    font-style: italic;
+    font-size: 110%;
+}
+
+blockquote {
+    border-left: solid #dddddd;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+div#footer { 
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: small;
+
+}
+
+p.caption { 
+  margin-top: 0px;
+  font-size: x-small;
+}
+
+th, td {
+    text-align: left;   
+    padding: 5px;
+    border: thin dotted #ddd;
+}
+
+th {
+    background: #ddd;
+}
+
+table {
+    border: thin solid #ddd;
+    font: normal 13px arial,'Bitstream Vera Sans',helvetica,sans-serif;
+}
+
+address { 
+  margin-top: 5px;
+  float: right;
+}
+
+a.delicious-tag {
+   color: #999999;
+   font-size: 10px;
+}
+
+table.contacts, table.contacts td {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  vertical-align: top;
+  padding-right: 40px;
+}
+

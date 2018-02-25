@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+    <title>Medical information retrieval test collection</title>
+    <meta name="google-site-verification" content="b0eNhJT6U6SqCUWLuWvOkuhr-_g-C_gI8VVF_58OqAc" />
+
+    <link href="prettify.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="prettify.js"></script>
+  </head>
+  
+  <body onload="prettyPrint()">
+    
+    <div id="main">
+      
+      <h1>Medical information retrieval test collection</h1>
+      
+      [<a href="..">Home</a>]
+
+      <h2>Background</h2>
+
+      This page provides a test collection with associated queries and relevance judgement for evaluating information retrieval of medical records. Details of the design of the evaluation framework are provided in the following paper:
+      <blockquote>
+	Koopman, B., Bruza, P., Sitbon, L., Lawley, M. <i><a href="sigir2011.pdf">Evaluation of medical information retrieval.</a></i> Poster proceedings of the 34st annual international ACM SIGIR conference on Research and development in information retrieval, 2011.
+      </blockquote>
+
+      If you make use of this collection please cite the above publication.
+
+      <h2>Test corpus</h2>
+
+      As our test corpus we use the <a href="http://nlp.dbmi.pitt.edu/nlprepository.html">BLULab NLP repository</a>, a collection of 81,617 de-identified clinical records from multiple U.S. hospitals during 2007. The collection is available to the community for research purposes. A number of different medical record types are provided, including: History and Physical Exams, Progress Notes, Consultation Reports, Radiology Reports, Emergency Department Reports, Discharge Summaries, Operative Reports, Cardiology Reports.
+<p>
+You will need to apply separately for access to the BLULab corpus.
+
+      <h2>Queries & Relevance Judgements</h2>
+
+      Below is a <strong>sample</strong> of the queries and relevane judgement for the BLULab collection. The complete data will be made available shortly.
+      <p>
+      Queries are provided in two formats - Indri style query XML documents and TREC style topics.
+      <p>
+      <table>
+	<tr>
+	  <th>Description</th><th>Document List</th><th colspan="2" style="text-align:center">Queries</th><th>Relevance Judgement</th><th>Evalation Run</th>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td></td>
+	  <td style="text-align:center">Indri</td>
+	  <td style="text-align:center">TREC</td>
+	  <td></td><td></td>
+	</tr>
+	<tr>
+	  <td>Samples</td>
+	  <td><a href="sample.doclist">sample.doclist</a></td>
+	  <td><a href="sample.iq">sample.iq</a></td>
+	  <td><a href="sample.topics">sample.topics</a> </td>
+	  <td><a href="sample.iq.qrel">sample.iq.qrel</a></td>
+	  <td><a href="sample.iq.eval">sample.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td>All</td>
+	  <td><a href="all.doclist">all.doclist</a></td>
+	  <td><a href="all.iq">all.iq</a></td>
+	  <td><a href="all.topics">all.topics</a></td>
+	  <td><a href="all.iq.qrel">all.iq.qrel</a></td>
+	  <td><a href="all.iq.eval">all.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td>Discharge Summaries, History & Physical Exams, Emergency Department Reports. No laboratory based reports.</td>
+	  <td><a href="ds_er_hp.doclist">ds_er_hp.doclist</a></td>
+	  <td><a href="ds_er_hp.iq">ds_er_hp.iq</a></td>
+	  <td><a href="ds_er_hp.topics">ds_er_hp.topics</a></td>
+	  <td><a href="ds_er_hp.iq.qrel">ds_er_hp.iq.qrel</a></td>
+	  <td><a href="ds_er_hp.iq.eval">ds_er_hp.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td>Discharge Summaries</td>
+	  <td><a href="ds.doclist">ds.doclist</a></td>
+	  <td><a href="ds.iq">ds.iq</a></td>
+	  <td><a href="ds.topics">ds.topics</a></td>
+	  <td><a href="ds.iq.qrel">ds.iq.qrel</a></td>
+	  <td><a href="ds.iq.eval">ds.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td>Discharge Summaries (excluding administrative non-clinical codes)</td>
+	  <td><a href="ds.doclist">ds.doclist</a></td>
+	  <td><a href="ds_clinical.iq">ds_clinical.iq</a></td>
+	  <td><a href="ds_clinical.topics">ds_clinical.topics</a></td>
+	  <td><a href="ds_clinical.iq.qrel">ds_clinical.iq.qrel</a></td>
+	  <td><a href="ds_clinical.iq.eval">ds_clinical.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td>Discharge Summaries mapped to SNOMED CT concept descriptions</td>
+	  <td><a href="ds.doclist">ds.doclist</a></td>
+	  <td><a href="snomedized-ds.iq">snomedized-ds.iq</a></td>
+	  <td><a href="snomedized-ds.topics">snomedized-ds.topics</a></td>
+	  <td><a href="snomedized-ds.iq.qrel">snomedized-ds.iq.qrel</a></td>
+	  <td><a href="snomedized-ds.iq.eval">snomedized-ds.iq.eval</a></td>
+	</tr>
+	<tr>
+	  <td colspan="6" style="text-align:center; font-weight: bold">Download all files: <a href="med_eval_all.zip">med_eval_all.zip</a> (9.6M)</td>
+	</tr>
+      </table>
+
+      <h2>Other resources</h2>
+
+
+      <h3>Indri parameters</h3>
+      Indri retrieval parameter configuration:
+      <pre class="prettyprint lang-xml">
+	&lt;parameters&gt;
+	  &lt;index&gt;/home/bevan/data/blulab/indri-index&lt;/index&gt; 
+	  &lt;count&gt;1500&lt;/count&gt; 
+	  &lt;trecFormat&gt;true&lt;/trecFormat&gt; 
+	  &lt;baseline&gt;tfidf&lt;/baseline&gt;
+	  &lt;stemmer&gt;
+	    &lt;name&gt;porter&lt;/name&gt;
+	  &lt;/stemmer&gt;
+	&lt;/parameters&gt;</pre>
+
+      <h3>ICD-9 codes</h3>
+
+      ICD-9 is published as a RTF text document and is therefore not distributed in machine readable form. We there provide CSV file of ICD codes and their corresponding description:
+      <ul>
+	<li><a href="diseases.csv">diseases.csv</a><br></li>
+	<li><a href="procedures.csv">procedures.csv</a></li>
+      </ul>
+
+      <h3>ICD-9 SNOMED CT mapping</h3>
+      We used the National Library of Medicine's <a href="http://umlsks.nlm.nih.gov">UMLSK</a> web service to map ICD codes to SNOMED CT concepts via UMLS. The copy of the resulting mapping file is provides:
+       <ul>
+	<li><a href="icd_snomed_mapping.txt">icd_snomed_mapping.txt</a><br></li>
+      </ul>
+
+    </div>
+    <div id="footer">
+      &copy; Copyright 2011 by <a href="http://koopman.id.au">Bevan Koopman</a> | Contact: <a href="mailto:bevan.koopman@csiro.au">bevan.koopman@csiro.au</a>
+    </div>
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-6128786-1");
+pageTracker._trackPageview();
+</script> 
+
+   </body>
+</html>

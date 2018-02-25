@@ -1,0 +1,100 @@
+<parameters>
+
+      <query>
+	<number>890.0</number>
+	<text>  
+	   Without mention of complication   Open wound of hip and thigh 
+	</text>
+      </query>
+
+      <query>
+	<number>890.1</number>
+	<text>  
+	   Complicated   Open wound of hip and thigh 
+	</text>
+      </query>
+
+      <query>
+	<number>939.0</number>
+	<text>  
+	   Bladder and urethra   Foreign body in genitourinary tract 
+	</text>
+      </query>
+
+      <query>
+	<number>425.8</number>
+	<text>  
+	   Cardiomyopathy in other diseases classified elsewhere Code first underlying disease      as  Friedreich s ataxia         myotonia atrophica          progressive muscular dystrophy         sarcoidosis         Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>425.9</number>
+	<text>  
+	   Secondary cardiomyopathy      unspecified   Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>360.01</number>
+	<text>  
+	   Acute endophthalmitis   Disorders of the globe Includes  disorders affecting multiple structures of eye 
+	</text>
+      </query>
+
+      <query>
+	<number>289.51</number>
+	<text>  
+	   Chronic congestive splenomegaly   Other diseases of blood and blood forming organs 
+	</text>
+      </query>
+
+      <query>
+	<number>425.4</number>
+	<text>  
+	   Other primary cardiomyopathies Cardiomyopathy  NOS congestive constrictive familial hypertrophic idiopathic nonobstructive obstructive restrictive Cardiovascular collagenosis   Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>425.5</number>
+	<text>  
+	   Alcoholic cardiomyopathy   Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>861.21</number>
+	<text>  
+	   Contusion   Injury to heart and lung 
+	</text>
+      </query>
+
+      <query>
+	<number>425.7</number>
+	<text>  
+	   Nutritional and metabolic cardiomyopathy Code first underlying disease      as  amyloidosis                 beriberi         cardiac glycogenosis         mucopolysaccharidosis         thyrotoxicosis                 Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>425.1</number>
+	<text>  
+	   Hypertrophic obstructive cardiomyopathy Hypertrophic subaortic stenosis  idiopathic    Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>425.3</number>
+	<text>  
+	   Endocardial fibroelastosis Elastomyofibrosis   Cardiomyopathy Includes  myocardiopathy 
+	</text>
+      </query>
+
+      <query>
+	<number>919.4</number>
+	<text>  
+	   Insect bite      nonvenomous      without mention of infection   Superficial injury of other      multiple      and unspecified sites 
+	</text>
+      </query>
+
